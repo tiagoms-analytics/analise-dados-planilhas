@@ -1,0 +1,2 @@
+# Google Sheets__Manipulação de dados_exercicio
+Manipulação_De_Dados_Exercício
