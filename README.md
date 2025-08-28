@@ -10,7 +10,7 @@ O exercício propõe uma série de manipulações e análises em uma planilha do
 2. Confira as estatísticas da coluna para conhecer mais os dados.
 
 
-### Página: 'estatístic'
+### Página: 'estatística'
 
 1. Crie uma nova aba chamada **estatística**.
 
@@ -21,11 +21,11 @@ O exercício propõe uma série de manipulações e análises em uma planilha do
 1. Crie três colunas novas: `dia`, `mês` e `ano`.
 2. Extraia essas informações a partir da coluna `data`.
 
-### 4. Página “cliente”
+### 4. Página 'cliente'
 
 1. Crie uma nova aba chamada **cliente**.
 
-2. Na página “cliente”, deixe uma célula para digitar o e-mail do cliente e após digitar o e-mail de qualquer cliente em baixo aparecerão 3 informações:
+2. Na página de “cliente", deixe uma célula para digitar o e-mail do cliente e após digitar o e-mail de qualquer cliente em baixo irá aparecer 3 informações:
 
 - A contagem de quantas operações de compra e venda do cliente fez
 
