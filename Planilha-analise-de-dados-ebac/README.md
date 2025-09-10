@@ -40,8 +40,8 @@ Comandos para onde o usuário irá digitar o código do cliente, irá mostrar o 
   #### Página estatística
   
   Comandos para a Variância e o Desvio Padrão.
-   - ==VAR(mercado_acoes!F:F)
-   - DESVPAD(mercado_acoes!F:F)
+   - =VAR(mercado_acoes!F:F)
+   - =DESVPAD(mercado_acoes!F:F)
 
    #### Página tendencia_tempora
 
