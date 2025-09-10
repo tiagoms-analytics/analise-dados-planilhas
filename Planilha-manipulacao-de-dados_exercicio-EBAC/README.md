@@ -10,7 +10,7 @@ O exercício propõe uma série de manipulações e análises em uma planilha do
 2. Confira as estatísticas da coluna para conhecer mais os dados.
 
 
-### Página: 'estatística'
+### 2. Página: 'estatística'
 
 1. Crie uma nova aba chamada **estatística**.
 
