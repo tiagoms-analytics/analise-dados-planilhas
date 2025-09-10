@@ -1,71 +1,53 @@
 # Google Sheet
-# Manipulação_De_Dados_Exercício
+# Análise_De_Dados_Exercício
 
 O exercício propõe uma série de manipulações e análises em uma planilha do Google Sheets com os seguintes requisitos:
 
-### 1. Manipulação de Dados
+### 1. Análise de Dados
 
-1. Altere todos os tipos de dados de acordo com cada coluna.
+1. Normalize os dados da coluna “preco” na página “mercado_acoes”.
 
-2. Confira as estatísticas da coluna para conhecer mais os dados.
+2. Crie 2 visualizações de filtro: Filtrar operações de compra e Filtrar operações de venda.
 
 
-### Página: 'estatística'
+### 2. Página: 'cliente'
 
-1. Crie uma nova aba chamada **estatística**.
+1. Na página “cliente”, onde o usuário irá digitar o código do cliente, irá mostrar o nome e email dele.
 
-2. Na página de estatística, calcule as seguintes operações em relação ao preço: soma, mínimo, máximo, média, mediana e moda.
+### 3. Página: 'estatística'
 
-### 3. Página: 'mercado_acoes'
+1. Na página “estatística”, acrescente as operações de variância e desvio padrão em relação ao preço.
 
-1. Crie três colunas novas: `dia`, `mês` e `ano`.
-2. Extraia essas informações a partir da coluna `data`.
+### 4. Página 'tendencia_temporal'
 
-### 4. Página 'cliente'
+1. Crie uma nova aba chamada **tendencia_temporal**.
 
-1. Crie uma nova aba chamada **cliente**.
-
-2. Na página de “cliente", deixe uma célula para digitar o e-mail do cliente e após digitar o e-mail de qualquer cliente em baixo irá aparecer 3 informações:
-
-- A contagem de quantas operações de compra e venda do cliente fez
-
-- A soma de quantas operações de compra e venda o cliente fez
-
-- A mídia de quantas operações de compra e venda o cliente fez
-
-3.  Na página de “cliente”, após digitar o e-mail de qualquer cliente ao lado, é preciso aparecer uma das mensagens abaixo, de acordo com as operações:
-
-- Se o cliente fez mais de 20 operações, então mostre a mensagem “Perfil Agressivo”,
-
-- Se fez entre 5 a 19 operações, então mostre a mensagem “Perfil Moderado”
-
-- Se fez entre 0 e 4 operações “Perfil Conservador”
+2. Faça a previsão da quantidade de operações do mês 12, considerando o intervalo de valores do mês 1 ao mês 11. Ao lado, subtraia o valor da previsão - o valor real do mês 12 para saber o erro da sua previsão com o valor real. 
 
 
 ## Fórmulas Utilizadas
 
-  
+
+   #### Página cliente
+   
+Comandos para onde o usuário irá digitar o código do cliente, irá mostrar o nome e email dele.
+
+   - =PROCV(B2;mercado_acoes!A:C;2) e =PROCV(B2;mercado_acoes!A:C;3)
+
+     
   #### Página estatística
-
-  - SOMA(mercado_acoes!F:F)
-  - =MÍNIMO(mercado_acoes!F:F)
-  - =MÁXIMO(mercado_acoes!F:F)
-  - =MÉDIA(mercado_acoes!F:F)
-  - =MED(mercado_acoes!F:F)
-  - =MODO(mercado_acoes!F:F)
- 
   
-  #### Página cliente
+Comandos para a Variância e o Desvio Padrão.
 
-   - =SE(E2 < 5; "Perfil Conservador"; SE(E2 > 20; "Perfil Agressivo"; "Perfil Moderado"))
-   - =CONT.SES(mercado_acoes!C:C; A2; mercado_acoes!D:D; "venda")
-   - =CONT.SES(mercado_acoes!C:C; A2; mercado_acoes!D:D; "compra")
-   - =SOMA(C2:D2)
-   - =MÉDIA(C2:D2)
-    
-   ## Observações
+  - =VAR(mercado_acoes!F:F)
+  - =DESVPAD(mercado_acoes!F:F)
 
-   - Verifique que os nomes das abas estejam exatamente como nas fórmulas (mercado_acoes, estatística, cliente).
-   - As fórmulas são dinâmicas e funcionam para listas com dados em expansão.
-   - Lembre-se de configurar os formatos corretos de data para que as extrações de dia, mês e ano funcionem corretamente.
+  
+  #### Página tendencia_tempora
+  
+Comando para a previsão da quantidade de operações do mês 12, considerando o intervalo de valores do mês 1 ao mês 11. Depois subtraia o valor da previsão - o valor real do mês 12 para saber o erro da sua previsão com o valor real 
+
+   - =PREVISÃO(A13;B2:B12;A2:A12)
+   - =C13-B13
+   
       
