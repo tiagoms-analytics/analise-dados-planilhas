@@ -10,6 +10,6 @@
 
 ### 🤝 Conecte-se comigo no LinkedIn
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Visitar_perfil-blue?logo=linkedin&style=flat-square)]([https://www.linkedin.com/in/seu-usuario/](https://www.linkedin.com/in/tiago-magalh%C3%A3es-santos-0b6ab0b6/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Visitar_perfil-blue?logo=linkedin&style=flat-square)]([https://www.linkedin.com/in/seu-usuario/](https://www.linkedin.com/in/tiago-magalh%C3%A3es-santos-0b6ab0b6/)
 
 
