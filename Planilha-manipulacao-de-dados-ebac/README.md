@@ -69,4 +69,5 @@ O exercício propõe uma série de manipulações e análises em uma planilha do
    - As fórmulas são dinâmicas e funcionam para listas com dados em expansão.
    - Lembre-se de configurar os formatos corretos de data para que as extrações de dia, mês e ano funcionem corretamente.
      
+     
       
