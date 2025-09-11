@@ -1,71 +1,35 @@
 # Google Sheet
-# Manipulação_De_Dados_Exercício
+# Tabelas-Dinâmicas-Exercício
 
 O exercício propõe uma série de manipulações e análises em uma planilha do Google Sheets com os seguintes requisitos:
 
-### 1. Manipulação de Dados
+### 1. Tabelas dinâmicas
 
-1. Altere todos os tipos de dados de acordo com cada coluna.
+1. Crie uma tabela dinâmica com os dados da aba “mercado_acoes” em uma nova página chamada “compra_venda”.
 
-2. Confira as estatísticas da coluna para conhecer mais os dados.
+Na página “compra_venda”, usando tabela dinâmica, mostre a quantidade de operações de compra e venda e o valor somado de cada uma dessas operações.
 
+2. Crie uma tabela dinâmica com os dados da aba “mercado_acoes” em uma nova página chamada “cliente_compra_venda”.
 
-### Página: 'estatística'
+Na página “cliente_compra_venda”, usando tabela dinâmica, mostre a quantidade de operações de compra e venda e o valor somado de cada uma dessas operações para cada um dos clientes.
 
-1. Crie uma nova aba chamada **estatística**.
+3. Crie uma tabela dinâmica com os dados da aba “mercado_acoes” em uma nova página chamada “cliente_lucro_prejuizo”.
 
-2. Na página de estatística, calcule as seguintes operações em relação ao preço: soma, mínimo, máximo, média, mediana e moda.
-
-### 3. Página: 'mercado_acoes'
-
-1. Crie três colunas novas: `dia`, `mês` e `ano`.
-2. Extraia essas informações a partir da coluna `data`.
-
-### 4. Página 'cliente'
-
-1. Crie uma nova aba chamada **cliente**.
-
-2. Na página de “cliente", deixe uma célula para digitar o e-mail do cliente e após digitar o e-mail de qualquer cliente em baixo irá aparecer 3 informações:
-
-- A contagem de quantas operações de compra e venda do cliente fez
-
-- A soma de quantas operações de compra e venda o cliente fez
-
-- A mídia de quantas operações de compra e venda o cliente fez
-
-3.  Na página de “cliente”, após digitar o e-mail de qualquer cliente ao lado, é preciso aparecer uma das mensagens abaixo, de acordo com as operações:
-
-- Se o cliente fez mais de 20 operações, então mostre a mensagem “Perfil Agressivo”,
-
-- Se fez entre 5 a 19 operações, então mostre a mensagem “Perfil Moderado”
-
-- Se fez entre 0 e 4 operações “Perfil Conservador”
+Na página “cliente_lucro_prejuizo”, usando tabela dinâmica, mostre o ticker da bolsa com o valor somado das operações de compra e venda, com filtros pelo ticker e pelo e-mail do cliente.
 
 
-## Fórmulas Utilizadas
+### Página: 'cliente_lucro_prejuizo'
 
-  
-  #### Página estatística
+#### Crie filtros, selecione de acordo com esses critérios:
 
-  - SOMA(mercado_acoes!F:F)
-  - =MÍNIMO(mercado_acoes!F:F)
-  - =MÁXIMO(mercado_acoes!F:F)
-  - =MÉDIA(mercado_acoes!F:F)
-  - =MED(mercado_acoes!F:F)
-  - =MODO(mercado_acoes!F:F)
- 
-  
-  #### Página cliente
+- e-mail: “gabriela.pereira87@exemplo.com”
+- stickes: HAPV3; ITUB4; JBSS3; MGLU3; PETR4; SANB11
 
-   - =SE(E2 < 5; "Perfil Conservador"; SE(E2 > 20; "Perfil Agressivo"; "Perfil Moderado"))
-   - =CONT.SES(mercado_acoes!C:C; A2; mercado_acoes!D:D; "venda")
-   - =CONT.SES(mercado_acoes!C:C; A2; mercado_acoes!D:D; "compra")
-   - =SOMA(C2:D2)
-   - =MÉDIA(C2:D2)
-    
-   ## Observações
+Com base nos filtros criados, determine qual foi o lucro total da gabriela.pereira87@exemplo.com nesses tickers.
 
-   - Verifique que os nomes das abas estejam exatamente como nas fórmulas (mercado_acoes, estatística, cliente).
-   - As fórmulas são dinâmicas e funcionam para listas com dados em expansão.
-   - Lembre-se de configurar os formatos corretos de data para que as extrações de dia, mês e ano funcionem corretamente.
-      
+##Observações
+
+- Como o exercício trata da criação e manipulação de tabelas dinâmicas, baixe o arquivo que se encontra no repositório para abri-lo no Excel ou no Google Sheets e visualizar as transações realizadas diretamente nas tabelas dinâmicas.
+
+- Para verificar o lucro total da gabriela.pereira87@exemplo.com nos tickers, crie uma coluna auxiliar chamada "LucroTotal".
+   
