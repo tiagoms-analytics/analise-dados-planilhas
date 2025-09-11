@@ -1,5 +1,5 @@
 # Google Sheet
-# Análise_De_Dados_Exercício
+# Análise-De-Dados-Exercício
 
 O exercício propõe uma série de manipulações e análises em uma planilha do Google Sheets com os seguintes requisitos:
 
