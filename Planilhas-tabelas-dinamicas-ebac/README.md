@@ -32,4 +32,5 @@ Com base nos filtros criados, determine qual foi o lucro total da gabriela.perei
 - Como o exercício trata da criação e manipulação de tabelas dinâmicas, baixe o arquivo que se encontra no repositório para abri-lo no Excel ou no Google Sheets e visualizar as transações realizadas diretamente nas tabelas dinâmicas.
 
 - Para verificar o lucro total da gabriela.pereira87@exemplo.com nos tickers, crie uma coluna auxiliar chamada "LucroTotal".
+  
    
