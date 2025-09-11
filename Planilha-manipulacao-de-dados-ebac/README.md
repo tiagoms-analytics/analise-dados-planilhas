@@ -1,5 +1,5 @@
 # Google Sheet
-# Manipulação_De_Dados_Exercício
+# Manipulação-De-Dados-Exercício
 
 O exercício propõe uma série de manipulações e análises em uma planilha do Google Sheets com os seguintes requisitos:
 
@@ -10,7 +10,7 @@ O exercício propõe uma série de manipulações e análises em uma planilha do
 2. Confira as estatísticas da coluna para conhecer mais os dados.
 
 
-### Página: 'estatística'
+### 2. Página: 'estatística'
 
 1. Crie uma nova aba chamada **estatística**.
 
