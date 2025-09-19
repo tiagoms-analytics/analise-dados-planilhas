@@ -1,7 +1,7 @@
 # Google Sheet
-# Manipulação-De-Dados-Exercício
+# Projeto de Manipulação de Dados em Google Sheets
 
-O exercício propõe uma série de manipulações e análises em uma planilha do Google Sheets com os seguintes requisitos:
+Este projeto propõe uma série de manipulações e análises em uma planilha do Google Sheets com os seguintes requisitos:
 
 ### 1. Manipulação de Dados
 
