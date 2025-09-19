@@ -1,7 +1,7 @@
 # Google Sheet
 # Projeto de Análise de Dados com Google Sheets
 
-O Projeto propõe uma série de manipulações e análises em uma planilha do Google Sheets com os seguintes requisitos:
+Este Projeto propõe uma série de manipulações e análises em uma planilha do Google Sheets com os seguintes requisitos:
 
 ### 1. Análise de Dados
 
