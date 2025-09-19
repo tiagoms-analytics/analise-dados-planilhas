@@ -1,7 +1,7 @@
 # Google Sheet
-# Tabelas-Dinâmicas-Exercício
+# Projeto de Tabelas Dinâmicas no Google Sheets
 
-O exercício propõe uma série de manipulações e análises em uma planilha do Google Sheets com os seguintes requisitos:
+Este projeto propõe uma série de manipulações e análises em uma planilha do Google Sheets, com foco na criação de tabelas dinâmicas para extração de insights de dados.
 
 ### 1. Tabelas dinâmicas
 
