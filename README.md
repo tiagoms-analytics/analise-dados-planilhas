@@ -12,7 +12,9 @@ Este repositório contém projetos focados em manipulação e análise de dados 
 
  ---
  
- ## Licença / Disclaimer Todo o conteúdo deste repositório foi desenvolvido para fins educacionais e de portfólio pessoal. Você é livre para usar, modificar e compartilhar os arquivos, desde que respeite os créditos ao autor original.
+ ## Licença / Disclaimer
+ 
+ Todo o conteúdo deste repositório foi desenvolvido para fins educacionais e de portfólio pessoal. Você é livre para usar, modificar e compartilhar os arquivos, desde que respeite os créditos ao autor original.
  
  ---
 
