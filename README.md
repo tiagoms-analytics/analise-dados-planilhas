@@ -1,14 +1,20 @@
-# Analista de Dados EBAC — Manipulação de Dados com Planilhas (Google Sheets)
+# 📊 Analista de Dados — Manipulação de Dados com Planilhas.
 
-### Este repositório contém os projetos desenvolvidos durante módulo "Manipulação de Dados com Planilhas" do curso de Analista de Dados da EBAC.
+Este repositório contém projetos focados em manipulação e análise de dados utilizando planilhas, com exemplos em **Google Sheets** e **Excel (.xlsx)**.
+
+---
  
- Veja abaixo os tópicos que foram abordados:
- #### 1. Google Sheets: Manipulação de dados
- #### 2. Google Sheets: Análise de dados
- #### 3. Google Sheets: Tabelas dinâmicas
- #### 4. Google Sheets: Construção de gráficos
+## Tópicos abordados
+- Manipulação de dados com fórmulas e funções
+- Tabelas dinâmicas para análise de dados
+- Criação de gráficos para visualização
+- Dashboards simples em planilhas
 
- Além dos arquivos em Google Sheets, também estão disponíveis versões em Excel (.xlsx) para download.
+ ---
+ 
+ ## Licença / Disclaimer Todo o conteúdo deste repositório foi desenvolvido para fins educacionais e de portfólio pessoal. Você é livre para usar, modificar e compartilhar os arquivos, desde que respeite os créditos ao autor original.
+ 
+ ---
 
 ### 🤝 Conecte-se comigo no LinkedIn
 
