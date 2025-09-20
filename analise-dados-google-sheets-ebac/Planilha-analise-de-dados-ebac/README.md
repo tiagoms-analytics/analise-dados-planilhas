@@ -48,5 +48,6 @@ Comandos para onde o usuário irá digitar o código do cliente, irá mostrar o 
 Comando para a previsão da quantidade de operações do mês 12, considerando o intervalo de valores do mês 1 ao mês 11. Depois subtraia o valor da previsão - o valor real do mês 12 para saber o erro da sua previsão com o valor real.
   - =PREVISÃO(A13;B2:B12;A2:A12)
   - =C13-B13
-    
+
+  
         
